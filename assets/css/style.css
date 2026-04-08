@@ -1,0 +1,155 @@
+/* BACKGROUND */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* CONTAINER CENTRÉ */
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* CARTE */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 450px;
+    animation: fadeIn 0.8s ease;
+}
+
+/* FORM */
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* TABLE */
+.table-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #0284c7;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* GRILLE SEMAINE */
+.week-table {
+    width: 95%;
+    margin: 30px auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.week-table th {
+    background: #0ea5e9;
+}
+
+.week-table td {
+    height: 60px;
+    vertical-align: top;
+}
+
+/* CARTE COURS */
+.course-box {
+    background: #16a34a;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+/* ================= LOGIN & REGISTER UNIQUEMENT ================= */
+
+.auth-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARTE CENTRÉE */
+.auth-card {
+    width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    animation: fadeIn 0.6s ease;
+}
+
+/* INPUTS */
+.auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* BOUTON */
+.auth-card button {
+    width: 100%;
+    padding: 10px;
+    background: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* LIENS */
+.auth-card a {
+    color: #0284c7;
+    text-decoration: none;
+}
+
+.auth-card a:hover {
+    text-decoration: underline;
+}
